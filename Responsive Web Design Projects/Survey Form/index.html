@@ -3,7 +3,7 @@
 
 <head>
     
-    <title></title>
+    <title>Survey Form</title>
     
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -82,21 +82,38 @@
             
             
             
-            <label>Things that should be improved in the future(Check all that apply):</label>
+            <label for="preferences">Things that should be improved in the future(Check all that apply):</label>
             
             
-            <input type="radio">Front-end Projects
-            <input type="radio">Back-end Projects
-            <input type="radio">Data Visualization
-            <input type="radio">Challenges
-            <input type="radio">Open Source Community
-            <input type="radio">Gitter help rooms
-            <input type="radio">Videos
-            <input type="radio">City Meetups
-            <input type="radio">Wiki
-            <input type="radio">Forum
-            <input type="radio">Additional Courses
+            <ul id="preferences" style="list-style: none;">
             
+        <li>        
+            <input type="checkbox" value="1">Front-end Projects
+        </li>        
+            <input type="checkbox" value="2">Back-end Projects
+        <li>        
+            <input type="checkbox" value="3">Data Visualization
+                </li>        
+            <input type="checkbox" value="4">Challenges
+        <li>        
+            <input type="checkbox" value="5">Open Source Community
+            </li>    
+            <input type="checkbox" value="6">Gitter help rooms
+        <li>        
+            <input type="checkbox" value="7">Videos
+            </li>    
+            <input type="checkbox" value="8">City Meetups
+            <li>    
+            <input type="checkbox" value="9">Wiki
+                </li>
+            <input type="checkbox" value="10">Forum
+            <li>    
+            <input type="checkbox" value="12">Additional Courses
+            </li>    
+                
+                
+                
+            </ul>
             
             
             <label for="comments">Any Comments or Suggestions?</label>
