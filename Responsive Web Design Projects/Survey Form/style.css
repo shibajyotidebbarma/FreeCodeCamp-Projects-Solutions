@@ -1,0 +1,67 @@
+body{
+    background-color: lawngreen;
+    text-align: center;
+    min-width: 320px;
+    font-family: Roboto;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+}
+#description{
+    color: white;
+    text-shadow: 2px 2px 8px #000;
+    font: 120px;
+}
+
+header {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+#survey-form{
+    margin: 20px 80px 10px 80px;;
+    background-color: white;
+    box-shadow: 4px 4px 12px #000;
+}
+
+.left {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 10px;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+.right {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+    padding-top: 20px;
+}
+
+.input-field {
+  padding-top: 20px;
+  height: 10px;
+  width: 200px;
+  margin: 10px;
+}
+
+#submit {
+  background-color: lawngreen;
+  border-radius: 50px;
+  color: white;
+  height: 50px;
+  width: 100px;
+  margin: 20px;
+  border: 0px solid;
+}
+
+.radio, .checkbox {
+  position: relative;
+  padding-bottom: 10px;
+}
